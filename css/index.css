@@ -1,0 +1,7 @@
+.body_ctn{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	background:url(../images/bg.png) center ;
+	border:1px solid red;
+}
