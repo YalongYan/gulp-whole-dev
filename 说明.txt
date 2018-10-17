@@ -1,4 +1,4 @@
-
+﻿
 #直接 cnpm install 安装依赖 安装完之后
 
 #打开node_modules\gulp-rev\index.js 
@@ -22,7 +22,7 @@ return modifyFilename(pth, (filename, ext) => ${filename}-${hash}${ext});
 
 changes.push({
 
-regexp: new RegExp( prefixDelim + pattern, 'g' ),
+regexp: new RegExp( prefixDelim + pattern, 'g' ) ,
 
 patternLength: pattern.length,
 
